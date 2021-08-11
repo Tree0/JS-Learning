@@ -1,0 +1,34 @@
+Bootstrap Phase-1
+1. Created Phase 1 container
+a. Created H1 heading (Todoly)
+b. Then inside a row created inputbox and a add button.
+
+JavaScript Phase-1
+1.created a array (arr) globally;
+2.Declared inputBox variable globally holding the input element.
+3.Added a EventListener to the add button.
+a.With each button click executes the function.
+b.Inside function take user input and push it to the array(arr).
+
+
+Bootstrap Phase-2
+1. Created Phase 2 container
+a. Inside container h3 heading tag.
+b. created a row
+  i. inside row two columns one for list and another for button.
+
+
+JavaScript Phase-2
+1. Created a function displayArray() to display the Todos Entered.
+2. used the forEach method to traverse the array and add the array content inside the list using innerHTML.
+
+
+Bootstrap Phase-3
+1. Created Phase 3 container
+a. Inside container h2 heading tag.
+b. Created a Unordered List.
+
+JavaScript Phase-3
+1. created a function taskCompleted() to display the completed task with each click for done button.
+2. used array.splice to remove the array element from particular index and stored it in a variable.
+3. then using innerHTML concatenated the variable to the list.

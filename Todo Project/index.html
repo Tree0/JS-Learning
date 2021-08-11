@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--phase-I Start-->
+  <section class="container bg-warning mt-3 p-2 w-50">
+        <h3 class="text-center mt-3 fw-bold">Todoly</h3>
+        <div class="row p-4">
+            <div class="col-10">
+                <input type="text" class="form-control" id="newTask" value="">
+            </div>
+            <div class="col-2">
+                <button class="btn btn-info" id="add">Add</button>
+            </div>
+        </div>
+  </section>
+  <!--Phase-I End-->
+
+  <!--Phase-II Start-->
+  <section class="container bg-warning mt-2 p-2 w-50">
+
+      <h3>Pending todos</h3>
+
+      <div class="row">
+      <div class="col-10 text-center">
+        <ul class="list-group" id="todoList">
+
+        </ul>
+      </div>
+        <div class="col-2" id="done">
+
+        </div>
+      </div>
+
+  </section>
+  <!--Phase-II End-->
+
+  <!--Phase-III Start-->
+
+  <section class="container bg-warning mt-2 p-2 w-50">
+    <h2>Task Completed</h2>
+    <ul class="list-group" id="completedList">
+
+    </ul>
+
+
+  </section>
+
+  <!--Phase-III End-->
+
+    <script type="text/javascript" src="script.js">
+
+    </script>
+</body>
+</html>
